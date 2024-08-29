@@ -19,11 +19,7 @@ pipeline {
                 bat '''
                 cd sample_rep
                 echo hello > newtextfile3.txt
-                git add .
-                git config --global user.email "vanshsharma8502@gmail.com"
-                git config --global user.name "vansh-8502"
-                git commit -m "push from Jenkins"
-                git push https://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@github.com/vansh-8502/sample_rep.git '''
+                '''
             }
         }
     }
